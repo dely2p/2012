@@ -1,0 +1,141 @@
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -i -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+xst -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -ifn clock.xst -ofn clock.syr
+ngdbuild -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -dd _ngo -nt timestamp -uc "clock.ucf" -p xc3s1000-fg676-4 "clock.ngc" clock.ngd
+map -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -p xc3s1000-fg676-4 -cm area -pr b -k 4 -c 100 -o clock_map.ncd clock.ngd clock.pcf
+par -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -w -intstyle ise -ol std -t 1 clock_map.ncd clock.ncd clock.pcf
+trce -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -e 3 -s 4 -xml clock clock.ncd -o clock.twr clock.pcf -ucf clock.ucf
+bitgen -ise "C:/Xilinx92i/completed_clock/completed_clock.ise" -intstyle ise -f clock.ut clock.ncd

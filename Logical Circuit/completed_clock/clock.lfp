@@ -1,0 +1,5 @@
+# begin LFP file C:\Xilinx92i\completed_clock\clock.lfp
+designfile clock.v
+parttype xc3s1000-4-fg676
+bus_delimiter 1;
+set_busdelim_onsave 1;

@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map J.36 on Tue Dec 06 16:25:53 2011
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "seg_com<0>" LOCATE = SITE "AD2" LEVEL 1;
+COMP "seg_com<1>" LOCATE = SITE "W2" LEVEL 1;
+COMP "seg_com<2>" LOCATE = SITE "W1" LEVEL 1;
+COMP "seg_com<3>" LOCATE = SITE "AB4" LEVEL 1;
+COMP "seg_com<4>" LOCATE = SITE "AB3" LEVEL 1;
+COMP "seg_com<5>" LOCATE = SITE "W6" LEVEL 1;
+COMP "seg_com<6>" LOCATE = SITE "W5" LEVEL 1;
+COMP "seg_com<7>" LOCATE = SITE "W4" LEVEL 1;
+COMP "beep" LOCATE = SITE "H2" LEVEL 1;
+COMP "seg_data<0>" LOCATE = SITE "AF5" LEVEL 1;
+COMP "seg_data<1>" LOCATE = SITE "AE5" LEVEL 1;
+COMP "seg_data<2>" LOCATE = SITE "AB6" LEVEL 1;
+COMP "seg_data<3>" LOCATE = SITE "AA6" LEVEL 1;
+COMP "seg_data<4>" LOCATE = SITE "K26" LEVEL 1;
+COMP "seg_data<5>" LOCATE = SITE "K25" LEVEL 1;
+COMP "seg_data<6>" LOCATE = SITE "AC2" LEVEL 1;
+COMP "seg_data<7>" LOCATE = SITE "AC1" LEVEL 1;
+COMP "clk" LOCATE = SITE "A13" LEVEL 1;
+COMP "rst" LOCATE = SITE "AD10" LEVEL 1;
+NET "clk_BUFGP/IBUFG" BEL "clk_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
