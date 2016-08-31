@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>dely</Machine>
+    <WindowsUser>EUNJIN</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>69905F26034D8620A68CFF555DE375650F1B452F9E4D267333DFCC8F04B332EB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>a800c736-921b-435a-aab4-9beb34baa7c1_1.0.0.0_neutral__5hachdvpnqh2c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>a800c736-921b-435a-aab4-9beb34baa7c1_5hachdvpnqh2c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>a800c736-921b-435a-aab4-9beb34baa7c1</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=gratiastella</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2013-02-26T12:44:40.639</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\Metronome_Tuner.exe">
+      <PackagePath>Metronome_Tuner.exe</PackagePath>
+      <Modified>2013-02-26T12:44:40.312</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\Metronome_Tuner.pdb">
+      <PackagePath>Metronome_Tuner.pdb</PackagePath>
+      <Modified>2013-02-26T12:44:40.274</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <Modified>2012-03-29T21:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\MainLogo.png">
+      <PackagePath>Assets\MainLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-04T07:38:04.183</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\MainLogo_s.png">
+      <PackagePath>Assets\MainLogo_s.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-04T07:37:19.707</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\M_button.png">
+      <PackagePath>Assets\M_button.png</PackagePath>
+      <Modified>2012-07-06T14:06:46.938</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\M_Logo.png">
+      <PackagePath>Assets\M_Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-04T07:21:42.681</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-29T21:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <Modified>2012-03-29T21:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-29T21:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2012-03-29T21:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2012-03-29T21:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2012-03-29T21:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\Assets\T_button.png">
+      <PackagePath>Assets\T_button.png</PackagePath>
+      <Modified>2012-07-06T14:19:59.760</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-07-04T06:35:53.675</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-07-06T12:56:51.920</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+      <Modified>2012-07-13T10:55:10.288</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+      <Modified>2012-07-04T08:28:41.672</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+      <Modified>2012-07-13T10:51:03.960</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\Metronome_Tuner\Metronome_Tuner\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-07-06T14:20:46.805</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
