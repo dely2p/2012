@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>GRATIASTELLA-PC</Machine>
+    <WindowsUser>gratiastella</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>42E5EE553B5D4C0F7435303E2A5C44A7DD9CF04923F0F0AAA0857D10A7D8E0BB</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c7276bee-278a-4644-901e-0c6ba6517f3a_1.0.0.0_neutral__5hachdvpnqh2c</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c7276bee-278a-4644-901e-0c6ba6517f3a_5hachdvpnqh2c!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c7276bee-278a-4644-901e-0c6ba6517f3a</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=gratiastella</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\windows8 App\App3\App3\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-07-10T21:26:37.755</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\bin\Debug\App3.exe">
+      <PackagePath>App3.exe</PackagePath>
+      <Modified>2012-07-10T21:31:00.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\bin\Debug\App3.pdb">
+      <PackagePath>App3.pdb</PackagePath>
+      <Modified>2012-07-10T21:31:00.661</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-30T06:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-30T06:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-30T06:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-30T06:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\Assets\LightGray.png">
+      <PackagePath>Assets\LightGray.png</PackagePath>
+      <Modified>2012-03-30T06:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\Assets\MediumGray.png">
+      <PackagePath>Assets\MediumGray.png</PackagePath>
+      <Modified>2012-03-30T06:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\Assets\DarkGray.png">
+      <PackagePath>Assets\DarkGray.png</PackagePath>
+      <Modified>2012-03-30T06:58:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-05-21T23:27:42.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\bin\Debug\GroupedItemsPage.xaml">
+      <PackagePath>GroupedItemsPage.xaml</PackagePath>
+      <Modified>2012-07-10T21:26:33.232</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\bin\Debug\GroupDetailPage.xaml">
+      <PackagePath>GroupDetailPage.xaml</PackagePath>
+      <Modified>2012-07-10T21:26:33.241</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\bin\Debug\ItemDetailPage.xaml">
+      <PackagePath>ItemDetailPage.xaml</PackagePath>
+      <Modified>2012-07-10T21:26:33.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-07-10T21:26:33.207</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\windows8 App\App3\App3\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-07-10T21:26:37.610</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
